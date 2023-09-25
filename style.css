@@ -214,10 +214,19 @@ body {
 .apresentacao-textos {
   width: 75%;
   font-size: 2.4rem;
+  font-weight: 300;
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
   text-align: left;
+}
+
+.linguagem-cor {
+  font-weight: 400;
+  color: #9775fa;
+}
+.linguagem-cor:hover {
+  color: #d0bfff;
 }
 
 /* Footer styles */
