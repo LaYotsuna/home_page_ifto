@@ -94,8 +94,21 @@ body {
   list-style-type: none;
 }
 
-.nome-paginas li:hover {
+/* .nome-paginas li:hover {
   color: #9775fa;
+} */
+
+.nome-paginas li::after {
+  content: "";
+  display: block;
+  background-color: #9775fa;
+  width: 100%;
+  transition: height 0.3s;
+}
+
+.nome-paginas li:hover::after {
+  margin-top: 0.2rem;
+  height: 0.2rem;
 }
 
 .meu-nome {
@@ -108,6 +121,12 @@ body {
   background-color: #343a40;
   grid-column: 2;
   grid-row: 2;
+}
+
+.foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Main styles */
