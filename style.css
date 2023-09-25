@@ -14,6 +14,7 @@ Documentation: https://github.com/astrit/css.gg#get-started
 INSPIRATIONS
 References: https://i.pinimg.com/564x/8d/d4/25/8dd425d35584732e7ff3d7f5ae32ec91.jpg 
 https://i.pinimg.com/564x/ae/85/32/ae8532c025fe9ec54c3ab2741c4e2204.jpg
+https://i.pinimg.com/564x/44/49/3d/44493dda088ecc4f4f103ce1940a2338.jpg
 
 COLORS
 Reference: https://yeun.github.io/open-color/#grape
@@ -35,7 +36,7 @@ Spacing system (px)
 */
 
 /* FONTS */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /* ICONS */
 @import url("https://css.gg/css");
@@ -53,7 +54,7 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Source Code Pro", monospace;
   background-color: #fff;
   /*   overflow: hidden; */
 }
@@ -78,7 +79,26 @@ body {
   grid-row: 1;
 }
 
-.nome {
+.nome-paginas {
+  height: 100%;
+  display: flex;
+  gap: 4.8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.nome-paginas li {
+  font-weight: 400;
+  color: #fff;
+  font-size: 2rem;
+  list-style-type: none;
+}
+
+.nome-paginas li:hover {
+  color: #9775fa;
+}
+
+.meu-nome {
   background-color: #212529;
   grid-column: 1;
   grid-row: 1 / 3;
