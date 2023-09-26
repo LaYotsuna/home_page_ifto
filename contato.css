@@ -60,16 +60,9 @@ body {
   overflow-x: hidden;
 }
 
-/* Header and navbar styles */
-.header {
-  width: 100vw;
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 10vh 90vh;
-}
-
+/* Navbar styles */
 .navbar {
+  height: 10vh;
   background-color: #343a40;
   grid-column: 2;
   grid-row: 1;
@@ -101,6 +94,21 @@ body {
 .nome-paginas li:hover::after {
   margin-top: 0.2rem;
   height: 0.4rem;
+}
+
+.link-home {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-projetos {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-contato {
+  color: #fff;
+  text-decoration: none;
 }
 
 .intro {
@@ -176,55 +184,12 @@ body {
   align-content: center;
 }
 
-.apresentacao-titulos {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 3.2rem;
-}
-
-.apresentacao-titulo {
-  font-size: 3rem;
-  margin-left: 12.8rem;
-}
-
-.apresentacao-subtitulo {
-  font-size: 7.4rem;
-}
-.apresentacao-subtitulo::after {
-  content: "";
-  display: block;
-  background-color: #9775fa;
-  width: 75%;
-  height: 0.8rem;
-}
-
-.apresentacao-textos {
-  width: 75%;
-  font-size: 2.4rem;
-  font-weight: 300;
-  display: flex;
-  flex-direction: column;
-  gap: 3.2rem;
-  text-align: left;
-}
-
-.linguagem-cor {
-  font-weight: 400;
-  color: #9775fa;
-}
-.linguagem-cor:hover {
-  color: #d0bfff;
-}
-
 /* Footer styles */
 .footer {
   font-size: 2rem;
   font-weight: 300;
   color: #fff;
-  height: 30vh;
+  height: 20vh;
   background-color: #343a40;
   display: grid;
   grid-template-columns: 1fr 1fr;
