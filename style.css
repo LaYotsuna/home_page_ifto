@@ -103,6 +103,21 @@ body {
   height: 0.4rem;
 }
 
+.link-home {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-projetos {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-contato {
+  color: #fff;
+  text-decoration: none;
+}
+
 .intro {
   background-color: #212529;
   grid-column: 1;
