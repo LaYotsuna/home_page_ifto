@@ -231,6 +231,8 @@ body {
 
 /* Footer styles */
 .footer {
+  font-size: 2rem;
+  font-weight: 300;
   color: #fff;
   height: 30vh;
   background-color: #343a40;
@@ -238,26 +240,36 @@ body {
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   align-content: center;
+  row-gap: 4.8rem;
 }
 
 .quote {
-  font-size: 2.4rem;
   grid-column: 1;
   grid-row: 1;
 }
 
+.quote span:hover {
+  color: #9775fa;
+}
+
 .github {
-  font-size: 2.4rem;
   grid-column: 1;
   grid-row: 2;
 }
+
+.github span {
+  color: #9775fa;
+}
+
+.github span:hover {
+  color: #d0bfff;
+}
+
 .contato {
-  font-size: 2rem;
   grid-column: 2;
   grid-row: 1;
 }
 .paginas-footer {
-  font-size: 2rem;
   grid-column: 2;
   grid-row: 2;
 }
@@ -266,6 +278,11 @@ body {
   list-style-type: none;
 }
 
+.paginas-footer li:hover {
+  color: #d0bfff;
+}
+
 .nome-paginas-footer {
   display: flex;
+  gap: 3.2rem;
 }
