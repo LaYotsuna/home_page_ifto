@@ -231,7 +231,41 @@ body {
 
 /* Footer styles */
 .footer {
-  width: 100vw;
+  color: #fff;
   height: 30vh;
   background-color: #343a40;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-content: center;
+}
+
+.quote {
+  font-size: 2.4rem;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.github {
+  font-size: 2.4rem;
+  grid-column: 1;
+  grid-row: 2;
+}
+.contato {
+  font-size: 2rem;
+  grid-column: 2;
+  grid-row: 1;
+}
+.paginas-footer {
+  font-size: 2rem;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.paginas-footer li {
+  list-style-type: none;
+}
+
+.nome-paginas-footer {
+  display: flex;
 }
