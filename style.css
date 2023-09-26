@@ -183,7 +183,7 @@ body {
 /* Main styles */
 .apresentacao {
   color: #fff;
-  height: 70vh;
+  height: 80vh;
   background-color: #24282c;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -239,7 +239,7 @@ body {
   font-size: 2rem;
   font-weight: 300;
   color: #fff;
-  height: 30vh;
+  height: 20vh;
   background-color: #343a40;
   display: grid;
   grid-template-columns: 1fr 1fr;
