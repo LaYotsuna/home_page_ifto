@@ -165,7 +165,6 @@ main {
     rgba(255, 255, 255, 0) 60%
   );
   transition: transform 0.65s cubic-bezier(0.18, 0.9, 0.58, 1);
-  border-radius: 1.2rem;
 }
 
 .image-container:hover {
