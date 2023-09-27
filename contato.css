@@ -183,26 +183,31 @@ body {
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   align-content: center;
-  row-gap: 15vh;
+  row-gap: 20vh;
+  padding-bottom: 15vh;
 }
 
 .titulo-contato {
+  color: #fff;
   grid-column: 1 / 4;
   grid-row: 1;
+  background-color: #9775fa;
+  padding: 1.2rem;
 }
 
 .card-contato {
   width: 20vw;
-  height: 15vh;
+  height: 10vh;
   background-color: #343a40;
   grid-row: 2;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .card-contato i {
-  --ggs: 1;
+  --ggs: 2;
 }
 
 /* Footer styles */
