@@ -183,7 +183,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   align-content: center;
-  row-gap: 10vh;
+  row-gap: 15vh;
 }
 
 .titulo-contato {
@@ -193,9 +193,16 @@ body {
 
 .card-contato {
   width: 20vw;
-  height: 20vh;
+  height: 15vh;
   background-color: #343a40;
   grid-row: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-contato i {
+  --ggs: 1;
 }
 
 /* Footer styles */
