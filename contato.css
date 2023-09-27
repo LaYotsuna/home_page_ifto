@@ -214,8 +214,13 @@ body {
 }
 
 .detalhes-contato {
+  font-size: 2rem;
+  font-weight: 300;
   height: 10vh;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Footer styles */
