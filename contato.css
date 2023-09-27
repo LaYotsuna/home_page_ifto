@@ -174,14 +174,28 @@ body {
 }
 
 /* Main styles */
-.apresentacao {
-  color: #fff;
+.container-contato {
+  font-size: 2.4rem;
+  color: #9775fa;
   height: 70vh;
   background-color: #24282c;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   align-content: center;
+  row-gap: 10vh;
+}
+
+.titulo-contato {
+  grid-column: 1 / 4;
+  grid-row: 1;
+}
+
+.card-contato {
+  width: 20vw;
+  height: 20vh;
+  background-color: #343a40;
+  grid-row: 2;
 }
 
 /* Footer styles */
