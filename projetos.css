@@ -128,8 +128,8 @@ main {
 
 .image-container {
   position: relative;
-  width: 40vw;
-  height: 40vh;
+  width: 30%;
+  height: 50%;
   border-radius: 1.2rem;
   overflow: hidden;
   transition: transform 0.5s;
