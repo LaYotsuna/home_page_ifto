@@ -213,6 +213,7 @@ body {
 .apresentacao-subtitulo {
   font-size: 7.4rem;
 }
+
 .apresentacao-subtitulo::after {
   content: "";
   display: block;

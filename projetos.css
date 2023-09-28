@@ -175,6 +175,24 @@ main {
   transform: translateX(15%);
 }
 
+.image-title {
+  font-size: 2rem;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.5s;
+  color: #fff;
+  background-color: #9775fa;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.image-container:hover .image-title {
+  opacity: 1;
+}
+
 /* Footer styles */
 .footer {
   font-size: 2rem;
