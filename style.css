@@ -288,7 +288,7 @@ body {
   list-style-type: none;
 }
 
-.paginas-footer li:hover {
+.paginas-footer a:hover {
   color: #d0bfff;
 }
 
