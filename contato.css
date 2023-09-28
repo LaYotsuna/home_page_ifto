@@ -195,7 +195,7 @@ body {
 }
 
 .card-contato {
-  width: 20vw;
+  width: 15vw;
   height: 10vh;
   background-color: #343a40;
   grid-row: 2;
@@ -210,9 +210,9 @@ body {
 }
 
 .detalhes-contato {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 300;
-  height: 10vh;
+  height: 7.5vh;
   color: #fff;
   display: flex;
   justify-content: center;
