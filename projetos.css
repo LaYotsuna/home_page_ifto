@@ -207,7 +207,12 @@ main {
   color: #9775fa;
 }
 
-.github span:hover {
+.github a {
+  color: #9775fa;
+  text-decoration: none;
+}
+
+.github a:hover {
   color: #d0bfff;
 }
 
