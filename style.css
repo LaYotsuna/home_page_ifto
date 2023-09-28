@@ -164,7 +164,12 @@ body {
   word-spacing: -0.4rem !important;
 }
 
-.saiba-mais:hover {
+.saiba-mais a {
+  color: #9775fa;
+  text-decoration: none;
+}
+
+.saiba-mais a:hover {
   color: #d0bfff !important;
 }
 
