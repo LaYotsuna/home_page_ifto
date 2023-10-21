@@ -86,20 +86,25 @@ main {
   height: 100%;
   background-color: #24282c;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.2rem;
+  overflow-y: scroll;
 }
 
 .image-container {
   position: relative;
-  width: 30%;
-  height: 50%;
+  width: 400px;
+  height: 250px;
   border-radius: 1.2rem;
   overflow: hidden;
   transition: transform 0.5s;
   transform-style: preserve-3d;
   perspective: 1000px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* flex: 1; */
+  margin: 2.4rem;
 }
 
 .projetos img {
@@ -114,6 +119,8 @@ main {
 }
 
 .gloss {
+  width: 100%;
+  height: 100%;
   content: "";
   position: absolute;
   z-index: 2;
@@ -128,7 +135,7 @@ main {
     rgba(255, 255, 255, 0.2) 42%,
     rgba(255, 255, 255, 0) 60%
   );
-  transition: transform 0.65s cubic-bezier(0.18, 0.9, 0.58, 1);
+  transition: transform 0.5s cubic-bezier(0.18, 0.9, 0.58, 1);
 }
 
 .image-container:hover {
@@ -139,8 +146,12 @@ main {
   transform: translateX(15%);
 }
 
+.gloss:hover {
+  transform: rotateX(7deg) translateY(-6px) scale(1.05);
+}
+
 .image-title {
-  font-size: 2rem;
+  font-size: 1.6rem;
   position: absolute;
   bottom: 10%;
   left: 50%;
