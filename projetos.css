@@ -151,7 +151,10 @@ main {
 }
 
 .image-title {
-  font-size: 1.6rem;
+  width: 65%;
+  height: auto;
+  text-align: center;
+  font-size: 1.4rem;
   position: absolute;
   bottom: 10%;
   left: 50%;
@@ -161,7 +164,7 @@ main {
   color: #fff;
   background-color: #9775fa;
   padding: 0.5rem 1rem;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 .image-container:hover .image-title {
